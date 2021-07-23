@@ -1,7 +1,7 @@
 import React from "react"
 
 // types
-import { TestComponentPropsType } from "./TestComponentTypes"
+import { TestComponentPropsType } from './TestComponentTypes';
 // styles
 import { StyledBox } from "./testComponentStyles"
 
