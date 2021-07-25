@@ -22,14 +22,14 @@ module.exports = {
     "@typescript-eslint"
   ],
   "rules": {
-    "indent": ["warn", 2],
+    "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["warn", "double"],
-    "semi": ["warn", "never"],
-    "eol-last": ["warn", "always"],
-    "no-unused-vars": ["warn"],
-    "no-trailing-spaces": ["warn"],
-    "no-console": ["warn"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "never"],
+    "eol-last": ["error", "always"],
+    "no-unused-vars": ["error"],
+    "no-trailing-spaces": ["error"],
+    "no-console": ["error"],
     "react/prop-types": 0,
     "prefer-destructuring": ["error", {"object": true, "array": true}],
     "react/self-closing-comp": [

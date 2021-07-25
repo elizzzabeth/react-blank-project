@@ -29,19 +29,6 @@
     "stylelint": "stylelint '**/*.{ts,css}'",
     "stylelint:fix": "stylelint '**/*.{ts,css}' --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js,css,json,md}": [
-      "eslint . --fix",
-      "stylelint . --fix",
-      "git add"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
