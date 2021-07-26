@@ -22,6 +22,7 @@ module.exports = {
     "@typescript-eslint"
   ],
   "rules": {
+    "max-len": [1, 120, 2],
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
