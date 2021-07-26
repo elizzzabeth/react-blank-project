@@ -27,7 +27,8 @@
     "lint": "eslint -c .eslintrc.js 'src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
     "stylelint": "stylelint '**/*.{ts,css}'",
-    "stylelint:fix": "stylelint '**/*.{ts,css}' --fix"
+    "stylelint:fix": "stylelint '**/*.{ts,css}' --fix",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
