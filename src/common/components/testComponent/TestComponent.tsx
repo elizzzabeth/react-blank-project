@@ -5,6 +5,12 @@ import { TestComponentPropsType } from "./TestComponentTypes"
 // styles
 import { StyledBox } from "./testComponentStyles"
 
-const TestComponent: React.FC<TestComponentPropsType> = ({title}) => <StyledBox>{title}</StyledBox>
+const TestComponent: React.FC<TestComponentPropsType> = ({title}) => {
+  return (
+    <StyledBox>
+      <h1>{title}</h1>
+    </StyledBox>
+  )
+}
 
 export default TestComponent
